@@ -15,7 +15,6 @@ def load_employees_from_csv():
 
 list_of_employees = load_employees_from_csv()
 
-
 def load_names_from_csv():
     names_list = []
 
