@@ -4,7 +4,6 @@ class TictactoeException(Exception):
         self.message = message
         super().__init__(message)
                          
-
 class Board:
     def __init__(self):
         self.board_array = [[" " for _ in range(3)] for _ in range(3)]
@@ -81,7 +80,6 @@ class Board:
                 return (True, "X wins!")
             else:
                 return (True, "O wins!")
-
 
 board = Board()
 
