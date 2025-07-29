@@ -17,10 +17,6 @@ class Point:
         #math: Euclidian distance to another point
         return math.hypot(self.x - other.x, self.y - other.y)
 
-
-
-
-
 class Vector(Point):
 
     def __repr__(self):
@@ -31,8 +27,6 @@ class Vector(Point):
             return Vector(self.x + other.x, self.y + other.y)
         return "NotImplemented"
 
-
 v1 = Vector(-10, 20)
 v2 = Vector(-3.5, 4.9)
 v3 = v1 + v2
-
